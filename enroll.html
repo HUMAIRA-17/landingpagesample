@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll Now - SkillMaster</title>
+    <link rel="stylesheet" href="enroll.css">
+</head>
+<body>
+
+    <section class="enroll-section">
+        <div class="form-container">
+            <h1>Enroll Now</h1>
+            <p>Fill in the form below to reserve your spot</p>
+
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <label for="course">Select Course (with Fees):</label>
+                <select id="course" required>
+                    <option value="">-- Choose a Course --</option>
+                    <option>Full-Stack Web Development - PKR 25,000</option>
+                    <option>Graphic Design Essentials - PKR 15,000</option>
+                    <option>Digital Marketing Pro - PKR 18,000</option>
+                </select>
+
+                <label for="message">Additional Notes (Optional):</label>
+                <textarea id="message" rows="4" placeholder="Any questions or preferences?"></textarea>
+
+                <button type="submit" class="submit-btn">Submit Enrollment</button>
+            </form>
+
+            <a href="index.html" class="back-link">← Back to Home</a>
+        </div>
+    </section>
+
+</body>
+</html>
